@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>About Us - NexMark</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&family=Orbitron:wght@600;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="page-wrap">
+      <!-- Header -->
+      <header class="site-header">
+        <div class="nav-inner">
+          <a class="brand" href="index.html">
+            <img class="logo" src="logo.png" alt="NexMark Logo" />
+          </a>
+          <nav class="main-nav">
+            <a href="index.html#home">HOME</a>
+            <a href="about.html" class="active">ABOUT US</a>
+            <a href="index.html#services">SERVICES</a>
+            <a href="index.html#contact">CONTACT US</a>
+          </nav>
+        </div>
+      </header>
+
+      <!-- Main Content -->
+      <main>
+        <section class="section about">
+          <h1 class="about-title">ABOUT NEXMARK</h1>
+
+          <div class="about-card glow-card">
+            <p>
+              NexMark is a leading digital marketing company founded with the goal of providing innovative and advanced marketing solutions to companies and institutions in the Kingdom of Saudi Arabia and the region. We believe in the power of digital marketing in transforming businesses and achieving sustainable growth, and we strive to be the first strategic partner for our clients in their journey towards digital excellence.
+            </p>
+
+            <p>
+              Our company combines practical experience, artistic creativity, and advanced technologies to provide comprehensive marketing services that meet the needs of the digital age. We do not just provide marketing services, but we build long-term partnerships with our clients to ensure their success and achieve their business goals.
+            </p>
+
+            <p>
+              We offer strategic planning, branding, media production, influencer marketing, and creative campaigns tailored to our clients’ goals. NexMark aims to lead innovation in digital marketing by combining data-driven strategies with creativity and precision.
+            </p>
+          </div>
+
+          <div class="bg-pattern bg-pattern--tl"></div>
+          <div class="bg-pattern bg-pattern--br"></div>
+        </section>
+
+        <div class="center-btn">
+          <a href="index.html" class="back-btn glow-card">← Back to Home</a>
+        </div>
+      </main>
+
+      <!-- Footer -->
+      <footer class="site-footer">
+        <p>© <span id="year"></span> NexMark. All Rights Reserved.</p>
+      </footer>
+    </div>
+
+    <!-- Fade-in Animation Script -->
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+      window.addEventListener("load", function () {
+        document.body.classList.add("loaded");
+      });
+    </script>
+  </body>
+</html>

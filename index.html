@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>NexMark</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&family=Orbitron:wght@600;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="page-wrap">
+      <header class="site-header">
+        <div class="nav-inner">
+          <a class="brand" href="#">
+            <img class="logo" src="logo.png" alt="NexMark Logo" />
+          </a>
+          <nav class="main-nav">
+            <a href="#home">HOME</a><a href="#about">ABOUT US</a><a href="#services">SERVICES</a><a href="#contact">CONTACT US</a>
+          </nav>
+        </div>
+      </header>
+
+      <main>
+        <section id="home" class="section hero">
+          <img class="hero-quote" src="assets/hero-quote.svg" alt="Decorative quote mark" />
+          <h1 class="hero-title"><span>NEXMARK,</span><br/>MAKE YOUR MARK</h1>
+          <div class="bg-pattern bg-pattern--tl"></div>
+          <div class="bg-pattern bg-pattern--br"></div>
+        </section>
+        
+        <section id="about" class="section about">
+          <h2 class="about-title" >ABOUT US</h2>
+          <div class="about-card glow-card">
+          <p>
+           NexMark is a leading digital marketing company founded with the goal of providing innovative and advanced marketing solutions to companies and institutions in the Kingdom of Saudi Arabia and the region. We believe in the power of digital marketing in transforming businesses and achieving sustainable growth, and we strive to be the first strategic partner for our clients in their journey towards digital excellence.
+           </p>
+
+        <span class="more-text">
+         Our company combines practical experience, artistic creativity, and advanced technologies to
+         provide comprehensive marketing services that meet the needs of the digital age.
+         We do not just provide marketing services,
+         but we build long-term partnerships with our clients to ensure their success and achieve their business goals.
+        </span>
+
+        <span class="more-link">more...</span>
+
+		  </div>
+		  
+          <div class="bg-pattern bg-pattern--tl"></div>
+        </section>
+        
+        <section id="services" class="section services">
+          <div class="services-container">
+            <div class="services-grid">
+             <button class="service-pill service-brand glow-card">BRAND IDENTITY DESIGN AND DEVELOPMENT</button>
+              <button class="service-pill service-media glow-card">MEDIA PRODUCTION</button>
+              <button class="service-pill service-what glow-card">WHAT SETS APART</button>
+              <button class="service-pill service-influencer glow-card">INFLUENCER SERVICES</button>
+              <button class="service-pill service-creative glow-card">CREATIVE WRITING</button>
+              <button class="service-pill service-advertising glow-card">ADVERTISING CAMPAIGN MANAGEMENT</button>
+              <button class="service-pill service-comprehensive glow-card">COMPREHENSIVE DIGITAL MARKETING</button>
+              <button class="service-pill service-core glow-card">CORE VALUES</button>
+              <div class="empty"></div>
+            </div>
+            <div class="service-details" id="service-details" style="display: none;">
+              <div class="detail-card glow-card">
+                <h3 class="detail-title"></h3>
+                <div class="detail-content">
+                  <div class="detail-list"></div>
+                  <div class="core-values-display" style="display: none;">
+                    <div class="values-grid">
+                      <div class="value-item">
+                        <div class="value-icon">[></div>
+                        <div class="value-content">
+                          <h4 class="value-title">BALANCE</h4>
+                          <div class="value-separator"></div>
+                          <p class="value-description">We are keen to achieve balance between quality, speed, and cost in all our projects.</p>
+                        </div>
+                      </div>
+                      <div class="value-item">
+                        <div class="value-icon">[></div>
+                        <div class="value-content"> 
+                          <h4 class="value-title">INNOVATION</h4>
+                          <div class="value-separator"></div>
+                          <p class="value-description">We always strive to develop new and innovative solutions that keep pace with the latest developments in the world of digital marketing.</p>
+                        </div>
+                      </div>
+                      <div class="value-item">
+                        <div class="value-icon">[></div>
+                        <div class="value-content">
+                          <h4 class="value-title">EXCELLENCE</h4>
+                          <div class="value-separator"></div>
+                          <p class="value-description">We believe in the importance of providing high-quality services that exceed our clients' expectations and achieve the desired success for them.</p>
+                        </div>
+                      </div>
+                      <div class="value-item">
+                        <div class="value-icon">[></div>
+                        <div class="value-content">
+                          <h4 class="value-title">TRANSPARENCY</h4>
+                          <div class="value-separator"></div>
+                          <p class="value-description">We use the latest technologies and advanced tools to ensure the provision of distinguished and effective services.</p>
+                        </div>
+                      </div>
+                      <div class="value-item">
+                        <div class="value-icon">[></div>
+                        <div class="value-content">
+                          <h4 class="value-title">TECHNICAL EXCELLENCE</h4>
+                          <div class="value-separator"></div>
+                          <p class="value-description">We believe in the importance of transparency and clarity in dealing with our clients and partners.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="rail rail--right"><span class="rail-label">SERVICES</span></div>
+          </div>
+        </section>
+
+        <section id="contact" class="section contact">
+          <div class="rail rail--left"><span class="rail-label">CONTACT US</span></div>
+          <form class="contact-form glow-card" netlify>
+            <label><span>Name</span><input type="text" name="name" required /></label>
+            <label><span>Email</span><input type="email" name="email" required /></label>
+            <label><span>Company name</span><input type="text" name="company" /></label>
+            <label><span>Phone number</span><input type="tel" name="phone" /></label>
+            <label class="full"><span>Message (optional)</span><textarea name="message" rows="4"></textarea></label>
+            <button type="submit" class="submit glow-card">SEND</button>
+          </form>
+          <div class="bg-pattern bg-pattern--tl"></div>
+          <div class="bg-pattern bg-pattern--br"></div>
+        </section>
+
+      </main>
+
+      <footer class="site-footer"><p>© <span id="year"></span> NexMark.  </p></footer>
+    </div>
+    <script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const moreLink = document.querySelector("#about .more-link");
+    const moreText = document.querySelector("#about .more-text");
+
+    // hide the "more" text by default
+    moreText.style.display = "none";
+
+    moreLink.addEventListener("click", function() {
+      if (moreText.style.display === "none") {
+        moreText.style.display = "inline";
+        moreLink.textContent = "less...";
+      } else {
+        moreText.style.display = "none";
+        moreLink.textContent = "more...";
+      }
+    });
+  });
+</script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

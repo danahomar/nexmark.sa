@@ -1,0 +1,5 @@
+<svg width="200" height="40" viewBox="0 0 200 40" xmlns="http://www.w3.org/2000/svg">
+  <text x="10" y="28" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white" text-anchor="start">NEX</text>
+  <text x="80" y="28" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white" text-anchor="start">MARK</text>
+  <path d="M60 8 L75 20 L60 32" stroke="white" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
